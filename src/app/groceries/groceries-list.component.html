@@ -35,7 +35,7 @@
                             [src]="grocery.imageUrl"
                             [style.Width.px]="imageWidth"
                             [style.margin.px]="imageMargin"></td>
-                            <td>{{grocery.groceryName}}</td>
+                            <td id="grocery-name">{{grocery.groceryName}}</td>
                             <td>{{grocery.groceryCode | lowercase }}</td>
                             <td>{{grocery.quantity}}</td>
                             <td>{{grocery.price | currency: 'CAD'}}</td>
